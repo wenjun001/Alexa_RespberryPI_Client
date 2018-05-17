@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wma/sdk-folder/sdk-source/avs-device-sdk/CapabilityAgents/AIP/include/AIP/ESPData.h
+ctype.h
+-
+string
+-
+
+/home/wma/sdk-folder/sdk-source/avs-device-sdk/ESP/include/ESP/DummyESPDataProvider.h
+string
+-
+AIP/ESPData.h
+-
+ESP/ESPDataModifierInterface.h
+-
+ESP/ESPDataProviderInterface.h
+-
+
+/home/wma/sdk-folder/sdk-source/avs-device-sdk/ESP/include/ESP/ESPDataModifierInterface.h
+string
+-
+AIP/ESPData.h
+-
+
+/home/wma/sdk-folder/sdk-source/avs-device-sdk/ESP/include/ESP/ESPDataProviderInterface.h
+AIP/ESPData.h
+-
+
+/home/wma/sdk-folder/sdk-source/avs-device-sdk/ESP/src/DummyESPDataProvider.cpp
+ESP/DummyESPDataProvider.h
+-
+

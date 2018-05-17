@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/test
+# Build directory: /home/wma/sdk-folder/sdk-build/Integration/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(AlexaAuthorizationDelegateTest "/home/wma/sdk-folder/sdk-build/Integration/test/AlexaAuthorizationDelegateTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(AlexaAuthorizationDelegateTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(AlexaCommunicationsLibraryTest "/home/wma/sdk-folder/sdk-build/Integration/test/AlexaCommunicationsLibraryTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(AlexaCommunicationsLibraryTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(AlexaDirectiveSequencerLibraryTest "/home/wma/sdk-folder/sdk-build/Integration/test/AlexaDirectiveSequencerLibraryTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(AlexaDirectiveSequencerLibraryTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(AudioInputProcessorIntegrationTest "/home/wma/sdk-folder/sdk-build/Integration/test/AudioInputProcessorIntegrationTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(AudioInputProcessorIntegrationTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(ServerDisconnectIntegrationTest "/home/wma/sdk-folder/sdk-build/Integration/test/ServerDisconnectIntegrationTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(ServerDisconnectIntegrationTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(SpeechSynthesizerIntegrationTest "/home/wma/sdk-folder/sdk-build/Integration/test/SpeechSynthesizerIntegrationTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(SpeechSynthesizerIntegrationTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(AlertsIntegrationTest "/home/wma/sdk-folder/sdk-build/Integration/test/AlertsIntegrationTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(AlertsIntegrationTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")
+  add_test(AudioPlayerIntegrationTest "/home/wma/sdk-folder/sdk-build/Integration/test/AudioPlayerIntegrationTest" "/home/wma/sdk-folder/sdk-build/Integration/AlexaClientSDKConfig.json" "/home/wma/sdk-folder/sdk-source/avs-device-sdk/Integration/inputs")
+  set_tests_properties(AudioPlayerIntegrationTest PROPERTIES  LABELS "Integration")
+endif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Ii][Nn][Tt][Ee][Gg][Rr][Aa][Tt][Ii][Oo][Nn])$")

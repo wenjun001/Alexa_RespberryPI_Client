@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -DNDEBUG -Wall -Werror -O2 -DRAPIDJSON_HAS_STDSTRING  -shared -Wl,-soname,libSpeakerManager.so -o libSpeakerManager.so CMakeFiles/SpeakerManager.dir/SpeakerManager.cpp.o ../../../AVSCommon/libAVSCommon.so /usr/local/lib/libcurl.so -Wl,-rpath,/home/wma/sdk-folder/sdk-build/AVSCommon:/usr/local/lib: 

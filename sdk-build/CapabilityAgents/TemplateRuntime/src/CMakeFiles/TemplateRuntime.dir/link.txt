@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -DNDEBUG -Wall -Werror -O2 -DRAPIDJSON_HAS_STDSTRING  -shared -Wl,-soname,libTemplateRuntime.so -o libTemplateRuntime.so CMakeFiles/TemplateRuntime.dir/TemplateRuntime.cpp.o ../../../AVSCommon/libAVSCommon.so /usr/local/lib/libcurl.so -Wl,-rpath,/home/wma/sdk-folder/sdk-build/AVSCommon:/usr/local/lib: 

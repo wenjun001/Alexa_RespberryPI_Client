@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUtilsCommonTestLib.a  CMakeFiles/UtilsCommonTestLib.dir/MockMediaPlayer.cpp.o
+/usr/bin/ranlib libUtilsCommonTestLib.a

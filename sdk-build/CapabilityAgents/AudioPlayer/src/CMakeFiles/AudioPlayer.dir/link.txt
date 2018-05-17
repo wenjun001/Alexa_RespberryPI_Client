@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -DNDEBUG -Wall -Werror -O2 -DRAPIDJSON_HAS_STDSTRING  -shared -Wl,-soname,libAudioPlayer.so -o libAudioPlayer.so CMakeFiles/AudioPlayer.dir/AudioPlayer.cpp.o CMakeFiles/AudioPlayer.dir/IntervalCalculator.cpp.o ../../../AVSCommon/libAVSCommon.so /usr/local/lib/libcurl.so -Wl,-rpath,/home/wma/sdk-folder/sdk-build/AVSCommon:/usr/local/lib: 
